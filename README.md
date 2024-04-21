@@ -1,5 +1,13 @@
-# vorto
-My program that solves a version of the Vehicle Routing Problem (VRP). The problem statement is below, and the instructions on how to execute my code are below that.
+# Vorto Coding Challenge
+My program that solves a version of the Vehicle Routing Problem (VRP).
+
+# Execution Instructions
+
+I have provided an `execute.bat` file for executing my code on a windows machine, and an `execute.sh` for executing my code on a mac/linux machine.
+
+Just double click on either one of these files (depending on your OS) and type in either a relative or a complete file path to the problem text file.
+
+The problem text file must be properly formatted, as described in the above problem statement.
 
 
 # Problem Statement
@@ -53,11 +61,3 @@ python mySubmission.py {path_to_problem}
 This should load the problem described in the file {path_to_problem}, run your algorithm, and print a solution to stdout in the correct format.
 
 We have provided a python script to help evaluate your code. This will run your program on each provided training problem, check for solution validity, and print your score. We highly recommend you use it to guide your development. See evaluationReadMe.txt for instructions. 
-
-# Execution Instructions
-
-I have provided an `execute.bat` file for executing my code on a windows machine, and an `execute.sh` for executing my code on a mac/linux machine.
-
-Just double click on either one of these files (depending on your OS) and type in either a relative or a complete file path to the problem text file.
-
-The problem text file must be properly formatted, as described in the above problem statement.
