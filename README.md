@@ -3,6 +3,8 @@ My program that solves a version of the Vehicle Routing Problem (VRP).
 
 # Execution Instructions
 
+Requirement: Have python 3 installed on your machine
+
 I have provided an `execute.bat` file for executing my code on a windows machine, and an `execute.sh` for executing my code on a mac/linux machine.
 
 Start by git clone-ing this repository into a directory of your choice. On Windows, double clicking the `execute.bat` script should be enough, so long as the script is kept in the same directory as the python code. 
