@@ -1,14 +1,33 @@
-### Vorto Coding Challenge
+# Vorto Coding Challenge
 My program that solves a version of the Vehicle Routing Problem (VRP).
 
 # Execution Instructions
 
 I have provided an `execute.bat` file for executing my code on a windows machine, and an `execute.sh` for executing my code on a mac/linux machine.
 
-Just double click on either one of these files (depending on your OS) and type in either a relative or a complete file path to the problem text file.
+Start by git clone-ing this repository into a directory of your choice. On Windows, double clicking the `execute.bat` script should be enough, so long as the script is kept in the same directory as the python code. 
+Below are alternative means of running my program on Windows.
 
-The problem text file must be properly formatted, as described in the above problem statement.
+### Windows (Command Prompt)
+1. `cd`  into the directory where this repository was cloned into
+2. run `execute.bat`
+3. Provide a valid file path to a text file containing a validly formatted problem (described in problem statement below)
 
+### Windows (Powershell)
+1. `cd` into the directory where this repository was cloned into
+2.  run `./execute.bat`
+3.  Provide a valid file path to a text file containing a validly formatted problem (described in problem statement below)
+
+
+On Mac, we will rely on the terminal to run my program. The instructions are below.
+
+### Mac/Linux
+1. Open the Terminal
+2. `cd` into the directory where this repository was cloned into
+3. run `./execute.sh`
+4. Provide a valid file path to a text file containing a validly formatted problem (described in problem statement below)
+
+For the file paths that you provide on either Windows or Mac/Linux, relative or absolute paths should work.
 
 # Problem Statement
 Vorto Algorithmic Challenge
